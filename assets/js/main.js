@@ -15,7 +15,7 @@ let connectfour = [
     ["", "", "", "", "", "", ""],
 ]
 let grid = connectfour
-let gameMode = "p4"
+let gameMode = "p3"
 let currentPlayer = "X"
 let gameover = false
 let turn = 1
@@ -26,11 +26,13 @@ replaybtn.addEventListener('click', () => {
 })
 document.querySelector('#mv2').addEventListener('click', () => {
     grid = morp
+    gameMode = "p3"
     cpuMode = false
     replay()
 })
 document.querySelector('#mv1').addEventListener('click', () => {
     grid = morp
+    gameMode = "p3"
     cpuMode = true
     replay()
 })
