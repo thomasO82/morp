@@ -163,6 +163,7 @@ function checkwinConnect() {
             ) {
                 console.log(currentPlayer + "win");
                 gameover = true
+                return
             }
 
             if (grid[i - 3] && grid[i - 3][j - 3] && grid[i - 3][j - 3] != "" && grid[i][j] == grid[i - 1][j - 1] && grid[i - 1][j - 1] == grid[i - 2][j - 2] && grid[i - 2][j - 2] == grid[i - 3][j - 3] ||
@@ -171,6 +172,7 @@ function checkwinConnect() {
             ) {
                 console.log(currentPlayer + "win");
                 gameover = true
+                return
 
             }
         }
