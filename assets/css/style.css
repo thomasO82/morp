@@ -1,0 +1,20 @@
+#gameContainer {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.cell {
+    flex: 1;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
