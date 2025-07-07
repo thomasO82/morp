@@ -14,7 +14,7 @@ let connectfour = [
     ["", "", "", "", "", "", ""],
     ["", "", "", "", "", "", ""],
 ]
-let grid = connectfour
+let grid = morp
 let gameMode = "p3"
 let currentPlayer = "X"
 let gameover = false
