@@ -151,7 +151,6 @@ function gravity(index) {
         }
 
     }
-    console.log(grid);
 
 }
 
